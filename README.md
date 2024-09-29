@@ -1,3 +1,5 @@
+NOTE: Hosted at https://cdc2024.onrender.com/ , please allow for at least 15 seconds to potentially load! It is hosted on render for public viewing, but on a free tier that takes a little longer to load. Otherwise, you can host this on local with flask. Thank you!
+
 Original repository located at : https://github.com/yuanyaolin13/cdc2024
 
 Relocated for organization;
