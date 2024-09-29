@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template
 import json
+import os  # Import the os module to access environment variables
 
 app = Flask(__name__)
 
@@ -16,4 +17,5 @@ def get_attractions():
     return jsonify(attractions)  # Serve the data as JSON
 
 if __name__ == '__main__':
-    app.run(debug=True)  # Run the app
+    # Run the app on the host and port specified by the environment variables
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=True)
